@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78B181611EC11F5100A1C0BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B181601EC11F5100A1C0BB /* main.m */; };
+		78B181641EC11F5100A1C0BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B181631EC11F5100A1C0BB /* AppDelegate.m */; };
+		78B181671EC11F5100A1C0BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B181661EC11F5100A1C0BB /* ViewController.m */; };
+		78B1816A1EC11F5100A1C0BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B181681EC11F5100A1C0BB /* Main.storyboard */; };
+		78B1816C1EC11F5100A1C0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B1816B1EC11F5100A1C0BB /* Assets.xcassets */; };
+		78B1816F1EC11F5100A1C0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B1816D1EC11F5100A1C0BB /* LaunchScreen.storyboard */; };
+		78B1817A1EC11F5100A1C0BB /* lianxin_teacherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B181791EC11F5100A1C0BB /* lianxin_teacherTests.m */; };
+		78B181851EC11F5100A1C0BB /* lianxin_teacherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B181841EC11F5100A1C0BB /* lianxin_teacherUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78B181761EC11F5100A1C0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78B181541EC11F5000A1C0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78B1815B1EC11F5000A1C0BB;
+			remoteInfo = "lianxin-teacher";
+		};
+		78B181811EC11F5100A1C0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78B181541EC11F5000A1C0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78B1815B1EC11F5000A1C0BB;
+			remoteInfo = "lianxin-teacher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78B1815C1EC11F5100A1C0BB /* lianxin-teacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lianxin-teacher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B181601EC11F5100A1C0BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78B181621EC11F5100A1C0BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78B181631EC11F5100A1C0BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78B181651EC11F5100A1C0BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78B181661EC11F5100A1C0BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78B181691EC11F5100A1C0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78B1816B1EC11F5100A1C0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78B1816E1EC11F5100A1C0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78B181701EC11F5100A1C0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B181751EC11F5100A1C0BB /* lianxin-teacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lianxin-teacherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B181791EC11F5100A1C0BB /* lianxin_teacherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lianxin_teacherTests.m; sourceTree = "<group>"; };
+		78B1817B1EC11F5100A1C0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B181801EC11F5100A1C0BB /* lianxin-teacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lianxin-teacherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B181841EC11F5100A1C0BB /* lianxin_teacherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lianxin_teacherUITests.m; sourceTree = "<group>"; };
+		78B181861EC11F5100A1C0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78B181591EC11F5000A1C0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B181721EC11F5100A1C0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B1817D1EC11F5100A1C0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78B181531EC11F5000A1C0BB = {
+			isa = PBXGroup;
+			children = (
+				78B1815E1EC11F5100A1C0BB /* lianxin-teacher */,
+				78B181781EC11F5100A1C0BB /* lianxin-teacherTests */,
+				78B181831EC11F5100A1C0BB /* lianxin-teacherUITests */,
+				78B1815D1EC11F5100A1C0BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78B1815D1EC11F5100A1C0BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78B1815C1EC11F5100A1C0BB /* lianxin-teacher.app */,
+				78B181751EC11F5100A1C0BB /* lianxin-teacherTests.xctest */,
+				78B181801EC11F5100A1C0BB /* lianxin-teacherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78B1815E1EC11F5100A1C0BB /* lianxin-teacher */ = {
+			isa = PBXGroup;
+			children = (
+				78B181621EC11F5100A1C0BB /* AppDelegate.h */,
+				78B181631EC11F5100A1C0BB /* AppDelegate.m */,
+				78B181651EC11F5100A1C0BB /* ViewController.h */,
+				78B181661EC11F5100A1C0BB /* ViewController.m */,
+				78B181681EC11F5100A1C0BB /* Main.storyboard */,
+				78B1816B1EC11F5100A1C0BB /* Assets.xcassets */,
+				78B1816D1EC11F5100A1C0BB /* LaunchScreen.storyboard */,
+				78B181701EC11F5100A1C0BB /* Info.plist */,
+				78B1815F1EC11F5100A1C0BB /* Supporting Files */,
+			);
+			path = "lianxin-teacher";
+			sourceTree = "<group>";
+		};
+		78B1815F1EC11F5100A1C0BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78B181601EC11F5100A1C0BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78B181781EC11F5100A1C0BB /* lianxin-teacherTests */ = {
+			isa = PBXGroup;
+			children = (
+				78B181791EC11F5100A1C0BB /* lianxin_teacherTests.m */,
+				78B1817B1EC11F5100A1C0BB /* Info.plist */,
+			);
+			path = "lianxin-teacherTests";
+			sourceTree = "<group>";
+		};
+		78B181831EC11F5100A1C0BB /* lianxin-teacherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78B181841EC11F5100A1C0BB /* lianxin_teacherUITests.m */,
+				78B181861EC11F5100A1C0BB /* Info.plist */,
+			);
+			path = "lianxin-teacherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78B1815B1EC11F5000A1C0BB /* lianxin-teacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B181891EC11F5100A1C0BB /* Build configuration list for PBXNativeTarget "lianxin-teacher" */;
+			buildPhases = (
+				78B181581EC11F5000A1C0BB /* Sources */,
+				78B181591EC11F5000A1C0BB /* Frameworks */,
+				78B1815A1EC11F5000A1C0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lianxin-teacher";
+			productName = "lianxin-teacher";
+			productReference = 78B1815C1EC11F5100A1C0BB /* lianxin-teacher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78B181741EC11F5100A1C0BB /* lianxin-teacherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B1818C1EC11F5100A1C0BB /* Build configuration list for PBXNativeTarget "lianxin-teacherTests" */;
+			buildPhases = (
+				78B181711EC11F5100A1C0BB /* Sources */,
+				78B181721EC11F5100A1C0BB /* Frameworks */,
+				78B181731EC11F5100A1C0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78B181771EC11F5100A1C0BB /* PBXTargetDependency */,
+			);
+			name = "lianxin-teacherTests";
+			productName = "lianxin-teacherTests";
+			productReference = 78B181751EC11F5100A1C0BB /* lianxin-teacherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78B1817F1EC11F5100A1C0BB /* lianxin-teacherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B1818F1EC11F5100A1C0BB /* Build configuration list for PBXNativeTarget "lianxin-teacherUITests" */;
+			buildPhases = (
+				78B1817C1EC11F5100A1C0BB /* Sources */,
+				78B1817D1EC11F5100A1C0BB /* Frameworks */,
+				78B1817E1EC11F5100A1C0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78B181821EC11F5100A1C0BB /* PBXTargetDependency */,
+			);
+			name = "lianxin-teacherUITests";
+			productName = "lianxin-teacherUITests";
+			productReference = 78B181801EC11F5100A1C0BB /* lianxin-teacherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78B181541EC11F5000A1C0BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.zzj;
+				TargetAttributes = {
+					78B1815B1EC11F5000A1C0BB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					78B181741EC11F5100A1C0BB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78B1815B1EC11F5000A1C0BB;
+					};
+					78B1817F1EC11F5100A1C0BB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78B1815B1EC11F5000A1C0BB;
+					};
+				};
+			};
+			buildConfigurationList = 78B181571EC11F5000A1C0BB /* Build configuration list for PBXProject "lianxin-teacher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78B181531EC11F5000A1C0BB;
+			productRefGroup = 78B1815D1EC11F5100A1C0BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78B1815B1EC11F5000A1C0BB /* lianxin-teacher */,
+				78B181741EC11F5100A1C0BB /* lianxin-teacherTests */,
+				78B1817F1EC11F5100A1C0BB /* lianxin-teacherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78B1815A1EC11F5000A1C0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B1816F1EC11F5100A1C0BB /* LaunchScreen.storyboard in Resources */,
+				78B1816C1EC11F5100A1C0BB /* Assets.xcassets in Resources */,
+				78B1816A1EC11F5100A1C0BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B181731EC11F5100A1C0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B1817E1EC11F5100A1C0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78B181581EC11F5000A1C0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B181671EC11F5100A1C0BB /* ViewController.m in Sources */,
+				78B181641EC11F5100A1C0BB /* AppDelegate.m in Sources */,
+				78B181611EC11F5100A1C0BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B181711EC11F5100A1C0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B1817A1EC11F5100A1C0BB /* lianxin_teacherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B1817C1EC11F5100A1C0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B181851EC11F5100A1C0BB /* lianxin_teacherUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78B181771EC11F5100A1C0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78B1815B1EC11F5000A1C0BB /* lianxin-teacher */;
+			targetProxy = 78B181761EC11F5100A1C0BB /* PBXContainerItemProxy */;
+		};
+		78B181821EC11F5100A1C0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78B1815B1EC11F5000A1C0BB /* lianxin-teacher */;
+			targetProxy = 78B181811EC11F5100A1C0BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78B181681EC11F5100A1C0BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B181691EC11F5100A1C0BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78B1816D1EC11F5100A1C0BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B1816E1EC11F5100A1C0BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78B181871EC11F5100A1C0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78B181881EC11F5100A1C0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78B1818A1EC11F5100A1C0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lianxin-teacher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzj.lianxin-teacher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78B1818B1EC11F5100A1C0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lianxin-teacher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzj.lianxin-teacher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78B1818D1EC11F5100A1C0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lianxin-teacherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzj.lianxin-teacherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lianxin-teacher.app/lianxin-teacher";
+			};
+			name = Debug;
+		};
+		78B1818E1EC11F5100A1C0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lianxin-teacherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzj.lianxin-teacherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lianxin-teacher.app/lianxin-teacher";
+			};
+			name = Release;
+		};
+		78B181901EC11F5100A1C0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "lianxin-teacherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzj.lianxin-teacherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "lianxin-teacher";
+			};
+			name = Debug;
+		};
+		78B181911EC11F5100A1C0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "lianxin-teacherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzj.lianxin-teacherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "lianxin-teacher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78B181571EC11F5000A1C0BB /* Build configuration list for PBXProject "lianxin-teacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B181871EC11F5100A1C0BB /* Debug */,
+				78B181881EC11F5100A1C0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B181891EC11F5100A1C0BB /* Build configuration list for PBXNativeTarget "lianxin-teacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B1818A1EC11F5100A1C0BB /* Debug */,
+				78B1818B1EC11F5100A1C0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78B1818C1EC11F5100A1C0BB /* Build configuration list for PBXNativeTarget "lianxin-teacherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B1818D1EC11F5100A1C0BB /* Debug */,
+				78B1818E1EC11F5100A1C0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78B1818F1EC11F5100A1C0BB /* Build configuration list for PBXNativeTarget "lianxin-teacherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B181901EC11F5100A1C0BB /* Debug */,
+				78B181911EC11F5100A1C0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78B181541EC11F5000A1C0BB /* Project object */;
+}
