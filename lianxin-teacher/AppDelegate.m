@@ -7,16 +7,108 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainViewController.h"
+#import "ChoiceViewController.h"
+#import "ViewController.h"
+#import "CourseViewController.h"
+#import "AFNetworking.h"
+#import "KHTTP.h"
+#import "SyetemDefine.h"
+#import "MBProgressHUD+MJ.h"
+//#import "RootViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+-(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [self automaticLogin];
+    NSLog(@"本地数据为%@",APPDELEGATE.currentUser);
+    return YES;
+}
+-(void)automaticLogin
+{
+    AFHTTPRequestOperationManager *manager= [[AFHTTPRequestOperationManager alloc]init];
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    NSString *urlPath = [NSString stringWithFormat:@"%@%d",UserMsgHttp,1];
+    [manager GET:urlPath parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSDictionary *responseDic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
+                NSString *codeStr = [responseDic valueForKey:@"code"];
+        if ([codeStr isEqualToString:@"200"]) {
+                        NSDictionary *dictTemp = [responseDic objectForKey:@"data"][0];
+                        User *user = [[User alloc]init];
+                        user = [User getInstanceByDic:dictTemp];
+                        APPDELEGATE.currentUser = user;
+                    }
+        else
+        {
+        }
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+    }];
+//    NSInteger password = 1;
+//    NSDictionary *LoginDic = @{@"userid":@1,@"userpassword":@(password) };
+//    NSLog(@"地址为%@",LoginDic);
+//    [manager POST:urlPath parameters:LoginDic success:^(AFHTTPRequestOperation *operation, id responseObject) {
+//        NSDictionary *responseDic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
+//        NSString *codeStr = [responseDic valueForKey:@"code"];
+//        NSString *msg = [responseDic valueForKey:@"msg"];
+//        if ([codeStr isEqualToString:@"200"]) {
+//            //登录成功
+//            //            NSLog(@"登录成功");
+//            //            [MBProgressHUD showSuccess:msg];
+//            NSDictionary *dictTemp = [responseDic objectForKey:@"data"];
+//            User *user = [[User alloc]init];
+//            user = [User getInstanceByDic:dictTemp];
+//            APPDELEGATE.currentUser = user;
+//        }
+//        else
+//        {
+//            [MBProgressHUD showError:msg];
+//        }
+//    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+//        [MBProgressHUD showError:@"网络不通畅，请检查网络"];
+//        
+//    }];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //1.创建Window
+         self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+         self.window.backgroundColor = [UIColor whiteColor];
+    
+        //a.初始化一个tabBar控制器
+         UITabBarController *tb=[[UITabBarController alloc]init];
+         //设置控制器为Window的根控制器
+         self.window.rootViewController=tb;
+    
+         //b.创建子控制器
+         MainViewController *c1=[[MainViewController alloc]init];
+         UINavigationController *navmain = [[UINavigationController  alloc]initWithRootViewController:c1];
+    navmain.tabBarItem.image = [[UIImage imageNamed:@"酒店@2x"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+         c1.view.backgroundColor=[UIColor colorWithRed:0.22f green:0.80f blue:0.47f alpha:1.00f];;
+    
+         CourseViewController *c3=[[CourseViewController alloc]init];
+    UINavigationController *navcourse = [[UINavigationController  alloc]initWithRootViewController:c3];
+    navcourse.tabBarItem.image = [[UIImage imageNamed:@"shop_selected@2x"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+         c3.view.backgroundColor=[UIColor colorWithRed:0.22f green:0.80f blue:0.47f alpha:1.00f];;
+    
+         ViewController *c4=[[ViewController alloc]init];
+    UINavigationController *navmy = [[UINavigationController  alloc]initWithRootViewController:c4];
+    navmy.tabBarItem.image = [[UIImage imageNamed:@"mine_selected@2x"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+         //  添加子控制器navigation
+         tb.viewControllers=@[navmain,navcourse,navmy];
+    ChoiceViewController *c2=[[ChoiceViewController alloc]init];
+    UINavigationController *navchoice = [[UINavigationController  alloc]initWithRootViewController:c2];
+    navchoice.tabBarItem.image = [[UIImage imageNamed:@"b27_icon_star_gray"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    c2.view.backgroundColor=[UIColor colorWithRed:0.22f green:0.80f blue:0.47f alpha:1.00f];;
+    
+    
+         //2.设置Window为主窗口并显示出来
+         [self.window makeKeyAndVisible];
+
     return YES;
 }
 

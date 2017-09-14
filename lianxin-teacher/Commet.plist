@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>headimage</key>
+		<string>beauti.jpg</string>
+		<key>name</key>
+		<string>自由身</string>
+		<key>grade</key>
+		<string>四年级</string>
+		<key>time</key>
+		<string>2011-12-01</string>
+		<key>comme</key>
+		<string>我们认为这些元素更为敏感，这是我们对这些信息类型跟踪感兴趣的地方。更详细的概述在第五节提出了敏感数据元素</string>
+		<key>answer</key>
+		<string>数据流分析，发现隐私泄露的问题，应用程序框架，可以作为数据流问题.这就是，我们可以找到通过识别数据流的输入函数访问敏感数据函数传递这些数据给第三方来找到隐私泄露。我们还需要哦检测用户是否许可</string>
+	</dict>
+	<dict>
+		<key>headimage</key>
+		<string>beauti.jpg</string>
+		<key>name</key>
+		<string>侯塞了个雷</string>
+		<key>grade</key>
+		<string>五年级</string>
+		<key>time</key>
+		<string>2012-12－02</string>
+		<key>comme</key>
+		<string>自动确定这种对敏感数据访问是否警告用户的行为给予我们更多的挑战。在我们的方法中，我们使用了以下方式</string>
+		<key>answer</key>
+		<string>objective-C程序通常使用大量的对象，因此，大多数函数调用实际上是调用实例方法，更糟糕的是，这些方法调用都是通过一个间接执行调用一个调度函数，因此，我们要求细化二元分析技术解决方法调用，并且确定最终这段代码调用的调度程序。在这次分析中，我们第一次尝试了重建类层次结构和objective-c类之间的继承关系</string>
+	</dict>
+	<dict>
+		<key>headimage</key>
+		<string>beauti.jpg</string>
+		<key>name</key>
+		<string>千千阙歌</string>
+		<key>grade</key>
+		<string>六年级</string>
+		<key>time</key>
+		<string>2012-06－08</string>
+		<key>comme</key>
+		<string>以访问项目，我们认为这些元素更为敏感，这是我们对这些信息类型跟踪感兴趣的地方。更详细的概述在第五节提出了敏感数据元素，数据流分析，发现隐私泄露的问题，应用程序框架，可以作为数据流问题.这就是，我们可以找到通过识别数据流的输入函数访问敏感数据函数传递这些数据给第三方来找到隐私泄露</string>
+		<key>answer</key>
+		<string>我们还需要哦检测用户是否许可。当然，这些都是比较容易去找到位置和与用户交互的功能，例如，显示一个消息框</string>
+	</dict>
+</array>
+</plist>
